@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-group description="" sid="858542615088205" title="Setando Ação e Array">
+            <sub-events>
+                <event-block sid="754517529701621">
+                    <conditions>
+                        <condition id="4" name="Compare selected item text" sid="393313244899133" type="listAction">
+                            <param id="0" name="Text to compare">&quot;se parede&quot;</param>
+                            <param id="1" name="Case sensitivity">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set selection" sid="215033442829883" type="listAction">
+                            <param id="0" name="Index">0</param>
+                        </action>
+                        <action id="7" name="Add item" sid="281150022728652" type="ActionsSelectionated">
+                            <param id="0" name="Text">&quot;Se parede&quot;</param>
+                        </action>
+                        <action id="5" name="Push" sid="302112143237446" type="arrayListaAcoes">
+                            <param id="0" name="Where">0</param>
+                            <param id="1" name="Value">&quot;Se parede&quot;</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="160871011178724">
+                    <conditions>
+                        <condition id="4" name="Compare selected item text" sid="515459922848687" type="listAction">
+                            <param id="0" name="Text to compare">&quot;move para baixo&quot;</param>
+                            <param id="1" name="Case sensitivity">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set selection" sid="152519864173725" type="listAction">
+                            <param id="0" name="Index">0</param>
+                        </action>
+                        <action id="7" name="Add item" sid="302328805910258" type="ActionsSelectionated">
+                            <param id="0" name="Text">&quot;Move para Baixo&quot;</param>
+                        </action>
+                        <action id="5" name="Push" sid="472805318415920" type="arrayListaAcoes">
+                            <param id="0" name="Where">0</param>
+                            <param id="1" name="Value">&quot;Move para Baixo&quot;</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="204090880283933">
+                    <conditions>
+                        <condition id="4" name="Compare selected item text" sid="594597422956592" type="listAction">
+                            <param id="0" name="Text to compare">&quot;move para cima&quot;</param>
+                            <param id="1" name="Case sensitivity">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set selection" sid="777320781811284" type="listAction">
+                            <param id="0" name="Index">0</param>
+                        </action>
+                        <action id="7" name="Add item" sid="501586619330489" type="ActionsSelectionated">
+                            <param id="0" name="Text">&quot;Move para Cima&quot;</param>
+                        </action>
+                        <action id="5" name="Push" sid="770021834254790" type="arrayListaAcoes">
+                            <param id="0" name="Where">0</param>
+                            <param id="1" name="Value">&quot;Move para Cima&quot;</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="456939663263424">
+                    <conditions>
+                        <condition id="4" name="Compare selected item text" sid="496887116178733" type="listAction">
+                            <param id="0" name="Text to compare">&quot;move para esquerda&quot;</param>
+                            <param id="1" name="Case sensitivity">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set selection" sid="284673896902516" type="listAction">
+                            <param id="0" name="Index">0</param>
+                        </action>
+                        <action id="7" name="Add item" sid="407888603821898" type="ActionsSelectionated">
+                            <param id="0" name="Text">&quot;Move para Esquerda&quot;</param>
+                        </action>
+                        <action id="5" name="Push" sid="121834937489850" type="arrayListaAcoes">
+                            <param id="0" name="Where">0</param>
+                            <param id="1" name="Value">&quot;Move para Esquerda&quot;</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="335912902848104">
+                    <conditions>
+                        <condition id="4" name="Compare selected item text" sid="187734490120315" type="listAction">
+                            <param id="0" name="Text to compare">&quot;move para direita&quot;</param>
+                            <param id="1" name="Case sensitivity">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set selection" sid="960572735592868" type="listAction">
+                            <param id="0" name="Index">0</param>
+                        </action>
+                        <action id="7" name="Add item" sid="203279441504640" type="ActionsSelectionated">
+                            <param id="0" name="Text">&quot;Move para Direita&quot;</param>
+                        </action>
+                        <action id="5" name="Push" sid="856699611592221" type="arrayListaAcoes">
+                            <param id="0" name="Where">0</param>
+                            <param id="1" name="Value">&quot;Move para Direita&quot;</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="974331379252863">
+                    <conditions>
+                        <condition id="4" name="Compare selected item text" sid="332682561284138" type="listAction">
+                            <param id="0" name="Text to compare">&quot;parar&quot;</param>
+                            <param id="1" name="Case sensitivity">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set selection" sid="163640911316520" type="listAction">
+                            <param id="0" name="Index">0</param>
+                        </action>
+                        <action id="7" name="Add item" sid="541381635260473" type="ActionsSelectionated">
+                            <param id="0" name="Text">&quot;Parar&quot;</param>
+                        </action>
+                        <action id="5" name="Push" sid="447859497351026" type="arrayListaAcoes">
+                            <param id="0" name="Where">0</param>
+                            <param id="1" name="Value">&quot;Parar&quot;</param>
+                            <param id="2" name="Axis">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block disabled="1" sid="580274764158037">
+            <conditions>
+                <condition id="0" name="On clicked" sid="439541896775692" type="playBttn" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block disabled="1" sid="927050391178587">
+                    <conditions>
+                        <condition id="3" name="For each element" sid="378792151783270" type="arrayListaAcoes">
+                            <param id="0" name="Axes">2</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block disabled="1" sid="500767720366641">
+                            <conditions>
+                                <condition id="4" name="Compare current value" sid="807199099378040" type="arrayListaAcoes">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Value">&quot;Parar&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="759388049972869" type="cucaracha">
+                                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="9" name="Delete" sid="896986172528607" type="arrayListaAcoes">
+                                    <param id="0" name="Index">arrayListaAcoes.IndexOf(arrayListaAcoes.CurValue)</param>
+                                    <param id="1" name="Axis">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block disabled="1" sid="449660318412158">
+                            <conditions>
+                                <condition id="4" name="Compare current value" sid="365037699137587" type="arrayListaAcoes">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Value">&quot;Move para Direita&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="666026665546816" type="cucaracha">
+                                    <param id="0" name="Animation">&quot;andandoRight&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block disabled="1" sid="508621280256153">
+                                    <conditions>
+                                        <condition id="-1" name="Every tick" sid="905566766498963" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-1" name="Set X" sid="680354812346679" type="cucaracha">
+                                            <param id="0" name="X">cucaracha.X+2</param>
+                                        </action>
+                                        <action id="9" name="Delete" sid="902884500013772" type="arrayListaAcoes">
+                                            <param id="0" name="Index">arrayListaAcoes.IndexOf(arrayListaAcoes.CurValue)</param>
+                                            <param id="1" name="Axis">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block disabled="1" sid="704971406034347">
+                            <conditions>
+                                <condition id="4" name="Compare current value" sid="444124733464427" type="arrayListaAcoes">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Value">&quot;Move para Esquerda&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="146454719340318" type="cucaracha">
+                                    <param id="0" name="Animation">&quot;andandoLeft&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block disabled="1" sid="784698698791057">
+                                    <conditions>
+                                        <condition id="-1" name="Every tick" sid="918089682010872" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-1" name="Set X" sid="558768650875680" type="cucaracha">
+                                            <param id="0" name="X">cucaracha.X-2</param>
+                                        </action>
+                                        <action id="9" name="Delete" sid="329457532577819" type="arrayListaAcoes">
+                                            <param id="0" name="Index">arrayListaAcoes.IndexOf(arrayListaAcoes.CurValue)</param>
+                                            <param id="1" name="Axis">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block disabled="1" sid="564579257459659">
+                            <conditions>
+                                <condition id="4" name="Compare current value" sid="238487333615484" type="arrayListaAcoes">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Value">&quot;Move para Cima&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="857361104103199" type="cucaracha">
+                                    <param id="0" name="Animation">&quot;andandoUp&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block disabled="1" sid="277496914835339">
+                                    <conditions>
+                                        <condition id="-1" name="Every tick" sid="124540071099527" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Set Y" sid="436277782364133" type="cucaracha">
+                                            <param id="0" name="Y">cucaracha.Y-2</param>
+                                        </action>
+                                        <action id="9" name="Delete" sid="308572933267614" type="arrayListaAcoes">
+                                            <param id="0" name="Index">arrayListaAcoes.IndexOf(arrayListaAcoes.CurValue)</param>
+                                            <param id="1" name="Axis">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block disabled="1" sid="969904634881171">
+                            <conditions>
+                                <condition id="4" name="Compare current value" sid="241263848521846" type="arrayListaAcoes">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Value">&quot;Move para Baixo&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="937435619579751" type="cucaracha">
+                                    <param id="0" name="Animation">&quot;andandoDown&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block disabled="1" sid="929465135603810">
+                                    <conditions>
+                                        <condition id="-1" name="Every tick" sid="345046040746487" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Set Y" sid="424290736439270" type="cucaracha">
+                                            <param id="0" name="Y">cucaracha.Y+2</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="129008350820093">
+            <conditions>
+                <condition id="4" name="Compare current value" sid="182843348853069" type="arrayListaAcoes">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Value">&quot;Move para Direita&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="133939665890919" type="cucaracha">
+                    <param id="0" name="Animation">&quot;andandoRight&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="789156698003275">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="168315783103969" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="469774625457677" type="cucaracha">
+                            <param id="0" name="X">cucaracha.X+2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="499193310884468">
+            <conditions>
+                <condition id="4" name="Compare current value" sid="331826820100506" type="arrayListaAcoes">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Value">&quot;Move para Esquerda&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="645224134880240" type="cucaracha">
+                    <param id="0" name="Animation">&quot;andandoLeft&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="320796533507382">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="158543441202062" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="486473537121627" type="cucaracha">
+                            <param id="0" name="X">cucaracha.X-2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="370272717688273">
+            <conditions>
+                <condition id="4" name="Compare current value" sid="923137858692705" type="arrayListaAcoes">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Value">&quot;Move para Cima&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="312391685997581" type="cucaracha">
+                    <param id="0" name="Animation">&quot;andandoUp&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="438478921650077">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="735209323613530" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="856138473920137" type="cucaracha">
+                            <param id="0" name="Y">cucaracha.Y-2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="652250558662156">
+            <conditions>
+                <condition id="4" name="Compare current value" sid="850104242346467" type="arrayListaAcoes">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Value">&quot;Move para Baixo&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="498581437719035" type="cucaracha">
+                    <param id="0" name="Animation">&quot;andandoDown&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="176722905907081">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="325066352533316" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="612876543347652" type="cucaracha">
+                            <param id="0" name="Y">cucaracha.Y+2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="258092703708260">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="473948858619753" type="cucaracha">
+                    <param id="0" name="Object">walls</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="445773025999295" type="cucaracha">
+                    <param id="0" name="Animation">&quot;parado&quot;</param>
+                    <param id="1" name="From">0</param>
+                </action>
+                <action id="9" name="Delete" sid="249247698853734" type="arrayListaAcoes">
+                    <param id="0" name="Index">arrayListaAcoes.IndexOf(arrayListaAcoes.CurValue)</param>
+                    <param id="1" name="Axis">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
